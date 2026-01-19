@@ -1,16 +1,52 @@
 ---
-# index.md
 layout: page
-title: "SOC 2 Compliance Policies & Procedures"
+title: "EdTech ISMS Policies & Procedures"
 permalink: /
 ---
 
 ## Table of Contents
 
-#### Access Control
+### Student Data
+
+#### Policies
+
+* [Student Data Governance Policy (STU-POL-001)](./student_data_policies/STU-POL-001)
+* [School Official Designation Policy (STU-POL-002)](./student_data_policies/STU-POL-002)
+* [Parental Consent and Rights Policy (STU-POL-003)](./student_data_policies/STU-POL-003)
+* [Student Data Sharing Policy (STU-POL-004)](./student_data_policies/STU-POL-004)
+* [Data Retention and Destruction Policy (STU-POL-005)](./student_data_policies/STU-POL-005)
+* [De-identification Policy (STU-POL-006)](./student_data_policies/STU-POL-006)
+
+#### Procedures
+
+* [Data Inventory Management Procedure (STU-PROC-001)](./student_data_procedures/STU-PROC-001)
+* [School Official Verification Procedure (STU-PROC-002)](./student_data_procedures/STU-PROC-002)
+* [Parent Rights Request Procedure (STU-PROC-003)](./student_data_procedures/STU-PROC-003)
+* [Subcontractor Data Sharing Procedure (STU-PROC-004)](./student_data_procedures/STU-PROC-004)
+* [Data Destruction Procedure (STU-PROC-005)](./student_data_procedures/STU-PROC-005)
+* [De-identification Procedure (STU-PROC-006)](./student_data_procedures/STU-PROC-006)
+
+### Privacy
+
+#### Policies
+
+* [FERPA Compliance Policy (PRV-POL-001)](./privacy_policies/PRV-POL-001)
+* [COPPA Compliance Policy (PRV-POL-002)](./privacy_policies/PRV-POL-002)
+* [State Privacy Laws Policy (PRV-POL-003)](./privacy_policies/PRV-POL-003)
+
+#### Procedures
+
+* [FERPA Compliance Review Procedure (PRV-PROC-001)](./privacy_procedures/PRV-PROC-001)
+* [COPPA Consent Management Procedure (PRV-PROC-002)](./privacy_procedures/PRV-PROC-002)
+* [State Law Compliance Procedure (PRV-PROC-003)](./privacy_procedures/PRV-PROC-003)
+
+### Access Control
+
+#### Policies
 
 * [Access Control Policy (AC-POL-001)](./access_control_policies/AC-POL-001)
 * [Acceptable Use Policy (AC-POL-002)](./access_control_policies/AC-POL-002)
+* [Student Data Access Controls Policy (AC-POL-003)](./access_control_policies/AC-POL-003)
 
 #### Procedures
 
@@ -18,6 +54,7 @@ permalink: /
 * [Bring Your Own Device (BYOD) Onboarding Procedure (AC-PROC-002)](./access_control_procedures/AC-PROC-002)
 * [User Access Review Procedure (AC-PROC-003)](./access_control_procedures/AC-PROC-003)
 * [Access Control Management Procedure (AC-PROC-004)](./access_control_procedures/AC-PROC-004)
+* [Student Data Access Request Procedure (AC-PROC-005)](./access_control_procedures/AC-PROC-005)
 
 ### Engineering
 
@@ -26,6 +63,8 @@ permalink: /
 * [Secure Software Development Policy (ENG-POL-001)](./engineering_policies/ENG-POL-001)
 * [Change Control Policy (ENG-POL-002)](./engineering_policies/ENG-POL-002)
 * [Infrastructure Security Policy (ENG-POL-003)](./engineering_policies/ENG-POL-003)
+* [Age-Appropriate Design Policy (ENG-POL-004)](./engineering_policies/ENG-POL-004)
+* [Accessibility Standards Policy (ENG-POL-005)](./engineering_policies/ENG-POL-005)
 
 #### Procedures
 
@@ -35,6 +74,8 @@ permalink: /
 * [Emergency Change Management Procedure (ENG-PROC-004)](./engineering_procedures/ENG-PROC-004)
 * [System Hardening and Baselining Procedure (ENG-PROC-005)](./engineering_procedures/ENG-PROC-005)
 * [Privileged Infrastructure Access Review Procedure (ENG-PROC-006)](./engineering_procedures/ENG-PROC-006)
+* [Age-Appropriate Design Review Procedure (ENG-PROC-007)](./engineering_procedures/ENG-PROC-007)
+* [Accessibility Testing and Remediation Procedure (ENG-PROC-008)](./engineering_procedures/ENG-PROC-008)
 
 ### Operational
 
@@ -44,6 +85,7 @@ permalink: /
 * [Mobile Device Policy (BYOD) (OP-POL-002)](./operational_policies/OP-POL-002)
 * [Data Retention and Disposal Policy (OP-POL-003)](./operational_policies/OP-POL-003)
 * [Human Resources Security Policy (OP-POL-004)](./operational_policies/OP-POL-004)
+* [School District Onboarding Policy (OP-POL-005)](./operational_policies/OP-POL-005)
 
 #### Procedures
 
@@ -56,18 +98,21 @@ permalink: /
 * [Employee Onboarding and Offboarding Security Procedure (OP-PROC-007)](./operational_procedures/OP-PROC-007)
 * [Security Policy Sanction Procedure (OP-PROC-008)](./operational_procedures/OP-PROC-008)
 * [Software and Extension Approval Procedure (OP-PROC-009)](./operational_procedures/OP-PROC-009)
+* [School District Onboarding Procedure (OP-PROC-010)](./operational_procedures/OP-PROC-010)
 
 ### Resilience
 
 #### Policies
 
 * [Incident Response Policy (RES-POL-001)](./resilience_policies/RES-POL-001)
+* [Breach Notification (Schools) Policy (RES-POL-003)](./resilience_policies/RES-POL-003)
 
 #### Procedures
 
 * [Incident Response Plan (IRP) (RES-PROC-001)](./resilience_procedures/RES-PROC-001)
 * [Data Breach Risk Assessment Procedure (RES-PROC-002)](./resilience_procedures/RES-PROC-002)
 * [Post-Incident Review Procedure (RES-PROC-003)](./resilience_procedures/RES-PROC-003)
+* [School Breach Notification Procedure (RES-PROC-004)](./resilience_procedures/RES-PROC-004)
 
 ### Security
 
@@ -94,41 +139,52 @@ permalink: /
 
 * [Schedule of Security Procedures (ISMS-SUP-001)](./isms_supplements/ISMS-SUP-001)
 
+### Annexes
+
+* [FERPA Control Mapping (ANNEX-001)](./annexes/ANNEX-001-ferpa-control-mapping)
+* [COPPA Compliance Checklist (ANNEX-002)](./annexes/ANNEX-002-coppa-compliance-checklist)
+* [State Privacy Law Matrix (ANNEX-003)](./annexes/ANNEX-003-state-privacy-law-matrix)
+* [Student Data Inventory Template (ANNEX-004)](./annexes/ANNEX-004-student-data-inventory-template)
+* [School DPA Template (ANNEX-005)](./annexes/ANNEX-005-school-dpa-template)
+* [Parent Rights Notice Template (ANNEX-006)](./annexes/ANNEX-006-parent-rights-notice-template)
+
 ## About This Framework
 
-Building a comprehensive SOC 2 compliance program requires robust policies and procedures that satisfy auditor requirements while remaining practical for implementation. This framework provides a complete Information Security Management System (ISMS) designed specifically for SOC 2 Trust Services Criteria compliance.
+This framework provides a comprehensive Information Security Management System (ISMS) designed for educational technology companies serving K-12 schools, school districts, and higher education institutions. It addresses requirements for:
 
-The documentation establishes security governance, risk management, access controls, system operations, and incident response capabilities that auditors expect to see in mature organizations. Each document includes clear SOC 2 control mappings and professional language suitable for regulatory review.
+- **FERPA** (34 CFR Part 99): Family Educational Rights and Privacy Act
+- **COPPA** (16 CFR Part 312): Children's Online Privacy Protection Rule
+- **State Student Privacy Laws**: SOPIPA (CA), NY Education Law 2-d, Colorado, Connecticut, Illinois SOPPA
+- **SOC 2** Trust Services Criteria
+- **Student Privacy Pledge** Commitments
+
+## Key Features
+
+- **School Official Exception Framework**: Complete implementation of FERPA school official criteria under 34 CFR 99.31(a)(1)(i)(B)
+- **COPPA School Consent Model**: Procedures for schools to consent on behalf of parents for children under 13
+- **State Law Matrix**: Requirements comparison for CA, NY, CO, CT, and IL
+- **Data Processing Agreement Template**: Ready-to-use DPA aligned with SDPC standards
+- **Breach Notification Procedures**: State-specific timelines and school notification workflows
 
 ## Implementation Approach
 
-This framework implements a comprehensive approach to SOC 2 compliance:
+This framework implements a comprehensive approach to EdTech compliance:
 
-- **Policies** establish security requirements and management commitment
-- **Procedures** provide detailed implementation guidance and operational steps  
-- **ISMS Supplements** offer implementation roadmaps and organizational tools
-- **Control Mapping** ensures complete coverage of SOC 2 Trust Services Criteria
+- **Policies** establish requirements and management commitment
+- **Procedures** provide detailed implementation guidance and operational steps
+- **Annexes** offer control mappings, checklists, and templates
+- **ISMS Supplements** provide implementation roadmaps and organizational tools
 
-Start by reviewing the Information Security Policy (SEC-POL-001) to understand the overall ISMS structure, then examine policies and procedures relevant to your organization's specific needs.
-
-## SOC 2 Trust Services Coverage
-
-This framework provides complete coverage of the **Common Criteria (CC1-CC8)**: Control Environment, Communication, Risk Management, Monitoring, Control Activities, Logical Access, System Operations, Change Management.
-
-## Download Complete Documentation
-
-For convenience, all policies and procedures are available as a comprehensive document set:
-
-📄 **[Download Complete SOC 2 ISMS Framework (PDF)]({{ site.baseurl }}/assets/files/soc2_framework_complete.pdf)**
+Start by reviewing the Student Data Governance Policy (STU-POL-001) and FERPA Compliance Policy (PRV-POL-001) to understand the education privacy requirements, then examine policies and procedures relevant to your organization's specific needs.
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for improving this SOC 2 compliance framework, please open an issue to discuss your ideas or submit a pull request with proposed enhancements.
+Contributions are welcome! If you have suggestions for improving this EdTech compliance framework, please open an issue to discuss your ideas or submit a pull request with proposed enhancements.
 
 ## Disclaimer of Liability
 
-These templates are provided on an "as-is" basis, without warranty of any kind, express or implied. The authors and contributors of this project are not lawyers or compliance consultants. The information provided here is for general informational purposes only and does not constitute legal or professional advice. By using these templates, you agree that you are solely responsible for ensuring your organization's compliance with all applicable laws, regulations, and standards. The authors and contributors of this repository assume no liability for any damages, losses, or legal issues that may arise from the use, misuse, or interpretation of these documents. **Always consult with a qualified professional for advice tailored to your specific situation.**
+These templates are provided on an "as-is" basis, without warranty of any kind, express or implied. The authors and contributors of this project are not lawyers or compliance consultants. The information provided here is for general informational purposes only and does not constitute legal or professional advice. By using these templates, you agree that you are solely responsible for ensuring your organization's compliance with all applicable laws, regulations, and standards. The authors and contributors of this repository assume no liability for any damages, losses, or legal issues that may arise from the use, misuse, or interpretation of these documents. **Always consult with a qualified professional for advice tailored to your specific situation.**
 
 ---
 
-*This SOC 2 compliance framework is maintained by [Open Access Policies](https://github.com/open-access-policies) and is available under a CC-BY-SA-4.0 license for organizations worldwide.*
+*This EdTech compliance framework is maintained by [Open Access Policies](https://github.com/open-access-policies) and is available under a CC-BY-SA-4.0 license for organizations worldwide.*
